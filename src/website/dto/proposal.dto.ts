@@ -3,7 +3,9 @@ export class ProposalDto{
 
     cpf:string
 
-    bonDate:string
+    fullname:string
+
+    bornDate:string
 
     email:string
 
@@ -19,7 +21,7 @@ export class ProposalDto{
 
     amortization:string
 
-    paymentDeadline:Number
+    paymentPeriod:Number
 
     gracePeriod:Number
 }

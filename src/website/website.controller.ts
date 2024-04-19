@@ -2,7 +2,7 @@ import { Body, Controller, Get, Post } from '@nestjs/common';
 import { WebsiteService } from './website.service';
 import { ProposalDto } from './dto/proposal.dto';
 
-@Controller('website')
+@Controller('api/website')
 export class WebsiteController {
 
     constructor(private readonly websiteService:WebsiteService){
